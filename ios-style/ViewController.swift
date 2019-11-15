@@ -14,11 +14,3 @@ class ViewController: UIViewController {
         button2 <~ defaultButton <~ yellow
     }
 }
-
-protocol UIViewProtocol {
-
-}
-
-extension UIView: UIViewProtocol {
-
-}

@@ -6,9 +6,11 @@ precedencegroup DoLeftFirst {
     associativity: left
 }
 
+// MARK: - <~
+
 infix operator <~: DoLeftFirst
 
 @discardableResult
-func <~ <T: UIView> (_ view: T, _ styleTo: Style<T>) -> T {
-    styleTo(view)
+public func <~ <T: UIView> (_ view: T, _ styleTo: Style<T>) -> T {
+    return styleTo(view)
 }
