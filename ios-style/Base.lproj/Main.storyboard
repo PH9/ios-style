@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_style" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YF-0b-Uq0">
+                                <rect key="frame" x="184" y="438" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rne-5n-ZPf">
+                                <rect key="frame" x="184" y="476" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fV3-Wh-kQx">
+                                <rect key="frame" x="184" y="520" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fV3-Wh-kQx" firstAttribute="centerX" secondItem="Rne-5n-ZPf" secondAttribute="centerX" id="AQ9-SV-L8O"/>
+                            <constraint firstItem="4YF-0b-Uq0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="BHj-Tv-3xY"/>
+                            <constraint firstItem="Rne-5n-ZPf" firstAttribute="centerX" secondItem="4YF-0b-Uq0" secondAttribute="centerX" id="I4u-MI-JbN"/>
+                            <constraint firstItem="4YF-0b-Uq0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lrl-or-geS"/>
+                            <constraint firstItem="Rne-5n-ZPf" firstAttribute="top" secondItem="4YF-0b-Uq0" secondAttribute="bottom" constant="8" id="qgx-ox-hW7"/>
+                            <constraint firstItem="fV3-Wh-kQx" firstAttribute="top" secondItem="Rne-5n-ZPf" secondAttribute="bottom" constant="14" id="rgl-dR-tcG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button2" destination="Rne-5n-ZPf" id="H4d-wj-qPB"/>
+                        <outlet property="button3" destination="fV3-Wh-kQx" id="CoA-Zr-Vux"/>
+                        <outlet property="redButton" destination="4YF-0b-Uq0" id="AZx-gd-imm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="136"/>
+        </scene>
+    </scenes>
+</document>
